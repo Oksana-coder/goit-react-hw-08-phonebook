@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+
+  .home {
+    margin-right: 15px;
+  }
+
+  .link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12;
+    font-weight: 700;
+    color: #2a363b;
+  }
+
+  .active-link {
+    color: #e84a5f;
+  }
+}

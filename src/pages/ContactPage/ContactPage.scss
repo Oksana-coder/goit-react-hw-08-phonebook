@@ -1,0 +1,15 @@
+.contact-page-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 50px;
+
+  .contacts-display {
+    margin-left: 50px;
+
+    h2 {
+      margin-top: 0;
+      font-weight: 500;
+      font-size: 26px;
+    }
+  }
+}
