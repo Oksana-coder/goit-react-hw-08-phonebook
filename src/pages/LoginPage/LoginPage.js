@@ -11,7 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import Button from '@material-ui/core/Button';
-import LaunchIcon from '@material-ui/icons/Launch';
+import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
 import './LoginPage.scss';
 
 
@@ -20,11 +20,11 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   textField: {
-    width: '250px',
+    width: '350px',
   },
   button: {
     margin: theme.spacing(1),
-    width: '250px',
+    width: '350px',
   },
 }));
 
@@ -64,7 +64,7 @@ export default function LoginView() {
 
   return (
     <div className="login-container">
-      <h1 className="login-title">Login Page</h1>
+      <h1 className="login-title">Login</h1>
 
       <form onSubmit={handleSubmit} className="login-form" autoComplete="off">
 
@@ -109,7 +109,7 @@ export default function LoginView() {
         variant="contained"
         color="primary"
         className={classes.button}
-        endIcon={<LaunchIcon />}
+        endIcon={<MeetingRoomIcon />}
         >
         Enter
         </Button>

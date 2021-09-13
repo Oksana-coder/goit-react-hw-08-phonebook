@@ -11,7 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import Button from '@material-ui/core/Button';
-import LaunchIcon from '@material-ui/icons/Launch';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
 import './RegisterPage.scss';
 
 const useStyles = makeStyles((theme) => ({
@@ -19,11 +19,11 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   textField: {
-    width: '250px',
+    width: '350px',
   },
   button: {
     margin: theme.spacing(1),
-    width: '250px',
+    width: '350px',
   },
 }));
 
@@ -66,7 +66,7 @@ export default function RegisterPage() {
 
   return (
     <div className="registration-container">
-      <h1 className="registration-title">Registration Page</h1>
+      <h1 className="registration-title">Registration</h1>
 
       <form onSubmit={handleSubmit} className="register-form" autoComplete="off">
 
@@ -123,7 +123,7 @@ export default function RegisterPage() {
         variant="contained"
         color="primary"
         className={classes.button}
-        endIcon={<LaunchIcon />}
+        endIcon={<ContactMailIcon />}
         >
         Register
         </Button>
